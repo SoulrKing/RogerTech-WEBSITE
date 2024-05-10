@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(8, 104, 1, 0.185);
+    color: white;
+}
+
+header>h1{
+    text-align: center;
+    padding: 10px;
+    text-shadow: 1px 1px 5px  black;
+    font-size: 50px;
+}
+header>menu{
+    text-align: center;
+}
+menu>h2:hover{
+    color: green;
+    transition: 0.5s;
+}
+menu>a>img{
+    width: 50px;
+    border-radius: 100%;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.582);
+    box-sizing: border-box;
+}
+menu>a>img:hover{
+    border: 2px solid white;
+    transition: 1s;
+    transform: translate(-2px, -2px);
+    box-shadow: 2px 2px 2px black;
+    cursor: none;
+}
+section>h2{
+    width: 80%;
+    height: 200px ;
+    margin: auto;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+}
+main{
+    width: 90vw;
+    height: auto;
+    padding: auto;
+    margin: auto;
+}
+.imagemparalax{
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white; 
+    box-shadow: inset 6px  6px 13px 0px rgba(0, 0, 0, 0.63);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#custobeneficio{
+    background-image: url(Imagens/pcscustobeneficio.png);
+    background-position: bottom right;
+}
+#highend{
+    background-image: url(Imagens/pcshighends.png);
+    background-position: center center ;
+}
+
+div>ul>li{
+    padding: 7px;
+    margin-right: 5px;
+}
+
