@@ -1,16 +1,32 @@
 @charset "UTF-8";
 
+@keyframes fadein{ from{
+    opacity: 0;
+}
+to {
+    opacity: 1;
+}};
 * {
     margin: 0px;
     padding: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
 body {
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(8, 104, 1, 0.185);
-    color: white;
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    animation: fadein 2.5s;
+}
+
+main,
+header {
+    color: black;
+}
+
+header{
+    width: 100%
 }
 
 header>h1 {
@@ -18,6 +34,7 @@ header>h1 {
     padding: 10px;
     text-shadow: 1px 1px 5px black;
     font-size: 50px;
+    color: white;
 }
 
 header>menu {
@@ -54,23 +71,63 @@ menu>a>img:hover {
 
 section>h2 {
     width: 80%;
-    height: 200px;
+    height: 250px;
     margin: auto;
     text-align: center;
     text-shadow: 1px 1px 3px black;
 }
 
-main {
-    width: 90vw;
-    height: auto;
-    padding: auto;
-    margin: auto;
+section#imagemparalax {
+    width: auto;
 }
+
+main {
+    justify-content: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 100px;
+    max-width: 800px;
+    min-width: 280px;
+}
+
+article>div {
+    width: 90%;
+    margin: auto;
+    padding: auto;
+}
+
 
 ul {
     padding-left: 10px;
 }
 
+div>ul>li {
+    padding: 7px;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a>b {
+    text-decoration: underline;
+}
+    footer{
+        background-color: green;
+        text-align: center;
+        padding-bottom: 10px;
+        box-shadow: 1px 1px 5px black;
+    }
+
+#valor{ font-size: xx-large;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+
+}
 .imagemparalax {
     background-color: rgba(0, 0, 0, 0.774);
     color: white;
@@ -87,17 +144,4 @@ ul {
 #highend {
     background-image: url(Imagens/pcshighends.png);
     background-position: bottom left;
-}
-
-div>ul>li {
-    padding: 7px;
-    margin-right: 5px;
-}
-
-a {
-    text-decoration: none;
-}
-
-a>b {
-    text-decoration: underline;
 }
