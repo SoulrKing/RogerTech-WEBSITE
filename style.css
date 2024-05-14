@@ -38,6 +38,7 @@ header>h1 {
 }
 
 header>menu {
+    padding: 0px;
     text-align: center;
 }
 
@@ -47,7 +48,6 @@ header>p {
     text-decoration: overline;
     color: black;
 }
-
 menu>h2:hover {
     color: green;
     transition: 0.5s;
@@ -79,6 +79,9 @@ section>h2 {
 
 section#imagemparalax {
     width: auto;
+}
+section#custobeneficio{
+    margin-top: 80px;
 }
 
 main {
@@ -137,11 +140,11 @@ a>b {
 }
 
 #custobeneficio {
-    background-image: url(Imagens/pcscustobeneficio.png);
-    background-position: bottom right;
+    background-image: url(Imagens/pcs-de-entrada.png);
+    background-position: center center;
 }
 
 #highend {
-    background-image: url(Imagens/pcshighends.png);
-    background-position: bottom left;
+    background-image: url(Imagens/pcs-high-end.png);
+    background-position: center center;
 }
