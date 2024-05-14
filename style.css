@@ -121,6 +121,10 @@ div>ul>li {
 div#videos-de-performace>h2{
     text-align: center;
 }
+iframe{
+    display: inline-block;
+    text-align: center;
+}
 a {
     text-decoration: none;
 }

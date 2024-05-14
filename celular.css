@@ -33,7 +33,7 @@ header {
 }
 
 header {
-    width: 90%;
+    width: 95%;
 }
 
 header>h1 {
@@ -126,7 +126,13 @@ div#videos-de-performace>h2{
     text-align: center;
     padding: 0px;
     margin: 0px;
-    width: auto;
+
+}
+div#videos-de-performace>iframe{
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    margin: auto;
 
 }
 a {
