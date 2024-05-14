@@ -1,11 +1,17 @@
 @charset "UTF-8";
 
-@keyframes fadein{ from{
-    opacity: 0;
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
-to {
-    opacity: 1;
-}};
+
+;
+
 * {
     margin: 0px;
     padding: 0px;
@@ -25,7 +31,7 @@ header {
     color: black;
 }
 
-header{
+header {
     width: 100%
 }
 
@@ -48,6 +54,7 @@ header>p {
     text-decoration: overline;
     color: black;
 }
+
 menu>h2:hover {
     color: green;
     transition: 0.5s;
@@ -80,7 +87,8 @@ section>h2 {
 section#imagemparalax {
     width: auto;
 }
-section#custobeneficio{
+
+section#custobeneficio {
     margin-top: 80px;
 }
 
@@ -118,33 +126,38 @@ a {
 a>b {
     text-decoration: underline;
 }
-    footer{
-        background-color: green;
-        text-align: center;
-        padding-bottom: 10px;
-        box-shadow: 1px 1px 5px black;
-    }
 
-#valor{ font-size: xx-large;
+footer {
+    background-color: green;
+    text-align: center;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+#valor {
+    font-size: xx-large;
     text-align: center;
     padding: 10px;
     margin: 10px;
 
 }
+
 .imagemparalax {
     background-color: rgba(0, 0, 0, 0.774);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.63);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed ;
 }
 
 #custobeneficio {
     background-image: url(Imagens/pcs-de-entrada.png);
     background-position: center center;
+    background-repeat: no-repeat;
 }
 
 #highend {
     background-image: url(Imagens/pcs-high-end.png);
     background-position: center center;
+    background-repeat: no-repeat;
 }
