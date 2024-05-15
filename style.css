@@ -84,13 +84,6 @@ section>h2 {
     text-shadow: 1px 1px 3px black;
 }
 
-section#imagemparalax {
-    width: auto;
-}
-
-section#custobeneficio {
-    margin-top: 80px;
-}
 
 main {
     justify-content: center;
@@ -99,7 +92,7 @@ main {
     margin-right: auto;
     margin-top: 5px;
     margin-bottom: 100px;
-    max-width: 950px;
+    max-width: 1000px;
     min-width: 280px;
 }
 
@@ -114,23 +107,40 @@ ul {
     padding-left: 10px;
 }
 
+div>p {
+    text-transform: uppercase;
+}
+
 div>ul>li {
     padding: 7px;
     margin-right: 5px;
+    font-weight: bold;
 }
-div#videos-de-performace>h2{
+
+div#videos-de-performace {
     text-align: center;
 }
-iframe{
+
+iframe {
     display: inline-block;
     text-align: center;
+    width: 400px;
+    height: 230px;
 }
+
 a {
     text-decoration: none;
+    color: black;
 }
 
 a>b {
     text-decoration: underline;
+    color: blue;
+}
+
+a>b:hover {
+    cursor: pointer;
+    
 }
 
 footer {
@@ -145,7 +155,14 @@ footer {
     text-align: center;
     padding: 10px;
     margin: 10px;
+    
+}
+section#imagemparalax {
+    width: auto;
+}
 
+section#custobeneficio {
+    margin-top: 80px;
 }
 
 .imagemparalax {
