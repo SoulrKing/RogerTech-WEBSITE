@@ -101,7 +101,7 @@ main {
 }
 
 article>div {
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding: auto;
 }
@@ -170,7 +170,7 @@ section#custobeneficio {
     margin-top: 80px;
 }
 
-.imagemparalax {
+/*.imagemparalax {
     background-color: rgba(0, 0, 0, 0.774);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.63);
@@ -178,11 +178,13 @@ section#custobeneficio {
     background-attachment: fixed;
     border-radius: 5px;
 }
+*/
 
 #custobeneficio {
     background-image: url(Imagens/pcs-de-entrada.png);
     background-position: center center;
     background-repeat: no-repeat;
+    color: ;
 }
 
 #highend {
